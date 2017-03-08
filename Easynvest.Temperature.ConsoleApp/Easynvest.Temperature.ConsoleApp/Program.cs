@@ -32,7 +32,13 @@ namespace Easynvest.Temperature.ConsoleApp
                         }));
                         tc.Start();
                     });
+                    s.WhenStopped(tc => tc.Stop());
                 });
+                x.RunAsLocalSystem();
+
+                x.SetDescription("Serviço de obtenção e envio de temperatura");
+                x.SetDisplayName("Easynvest.Temperature.Service");
+                x.SetServiceName("Easynvest.Temperature.Service");
             });
         }
     }
