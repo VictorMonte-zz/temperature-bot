@@ -13,24 +13,35 @@ namespace Easynvest.Temperature.ConsoleApp.Arduino
         private SerialPort Port;
         public SerialPortHelper(string port)
         {
+            //A porta pode mudar conforme alocação do S.O
             PortName = port;
 
             if (Port != null)
             {
-                //For this project this is the commum resources
+                //Essa configuração é padrão para obter os dados da porta serial(no caso do Arduíno)
                 Port.BaudRate = 9600;
                 Port.Parity = Parity.None;
                 Port.StopBits = StopBits.One;
                 Port.DataBits = 8;
                 Port.Handshake = Handshake.None;
                 Port.RtsEnable = true;
-
-                Port.Open();
-            }            
+            }
 
         }
 
-        public void ClosePort()
+        internal void AddDataReceivedHandler(SerialDataReceivedEventHandler serialDataReceivedEventHandler)
+        {
+            Port.DataReceived += serialDataReceivedEventHandler;
+        }
+
+        public void Start()
+        {
+            if (Port != null)
+            {
+                Port.Open();
+            }
+        }
+        public void Stop()
         {
             if (Port != null && Port.IsOpen)
             {
