@@ -9,15 +9,16 @@ namespace Easynvest.Temperature.ConsoleApp.Arduino
 {
     public class SerialPortManager
     {
-        private string PortName;
-        private SerialPort Port;
+        private string PortName { get; set; }
+        private SerialPort Port { get; set; }
         public SerialPortManager(string port)
         {
-            //A porta pode mudar conforme alocação do S.O
-            PortName = port;
 
-            if (Port != null)
+            if (Port == null)
             {
+                //A porta pode mudar conforme alocação do S.O
+                Port = new SerialPort(PortName = port);
+
                 //Essa configuração é padrão para obter os dados da porta serial(no caso do Arduíno)
                 Port.BaudRate = 9600;
                 Port.Parity = Parity.None;

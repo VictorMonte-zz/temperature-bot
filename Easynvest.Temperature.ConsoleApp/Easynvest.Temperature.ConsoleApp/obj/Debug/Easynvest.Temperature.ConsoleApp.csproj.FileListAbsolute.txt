@@ -1,2 +1,9 @@
 c:\users\victor.monte\documents\visual studio 2015\Projects\Easynvest.Temperature.ConsoleApp\Easynvest.Temperature.ConsoleApp\bin\Debug\Easynvest.Temperature.ConsoleApp.exe.config
 C:\Users\victor.monte\Desktop\Victor GIT\Easynvest.Temperature\Easynvest.Temperature.ConsoleApp\Easynvest.Temperature.ConsoleApp\bin\Debug\Easynvest.Temperature.ConsoleApp.exe.config
+C:\Users\victor.monte\Desktop\Victor GIT\Easynvest.Temperature\Easynvest.Temperature.ConsoleApp\Easynvest.Temperature.ConsoleApp\bin\Debug\Easynvest.Temperature.ConsoleApp.exe
+C:\Users\victor.monte\Desktop\Victor GIT\Easynvest.Temperature\Easynvest.Temperature.ConsoleApp\Easynvest.Temperature.ConsoleApp\bin\Debug\Easynvest.Temperature.ConsoleApp.pdb
+C:\Users\victor.monte\Desktop\Victor GIT\Easynvest.Temperature\Easynvest.Temperature.ConsoleApp\Easynvest.Temperature.ConsoleApp\bin\Debug\Topshelf.dll
+C:\Users\victor.monte\Desktop\Victor GIT\Easynvest.Temperature\Easynvest.Temperature.ConsoleApp\Easynvest.Temperature.ConsoleApp\bin\Debug\Topshelf.xml
+C:\Users\victor.monte\Desktop\Victor GIT\Easynvest.Temperature\Easynvest.Temperature.ConsoleApp\Easynvest.Temperature.ConsoleApp\obj\Debug\Easynvest.Temperature.ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\victor.monte\Desktop\Victor GIT\Easynvest.Temperature\Easynvest.Temperature.ConsoleApp\Easynvest.Temperature.ConsoleApp\obj\Debug\Easynvest.Temperature.ConsoleApp.exe
+C:\Users\victor.monte\Desktop\Victor GIT\Easynvest.Temperature\Easynvest.Temperature.ConsoleApp\Easynvest.Temperature.ConsoleApp\obj\Debug\Easynvest.Temperature.ConsoleApp.pdb
