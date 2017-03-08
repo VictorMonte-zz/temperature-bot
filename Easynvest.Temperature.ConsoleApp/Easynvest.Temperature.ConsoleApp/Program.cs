@@ -25,9 +25,10 @@ namespace Easynvest.Temperature.ConsoleApp
                             //Tempo para o arduino ler algumas temperaturas
                             Thread.Sleep(2000);
 
-                            var values = (((SerialPort)sender).ReadExisting()).Split(new string[] { "\r\n" }, StringSplitOptions.None).ToList();
-
-                            RobotDataSender.Send(values.FirstOrDefault());
+                            RobotDataSender.Send(
+                                    (((SerialPort)sender).ReadExisting())
+                                        .Split(new string[] { "\r\n" }, StringSplitOptions.None)
+                                        .FirstOrDefault());
 
                         }));
                         tc.Start();
