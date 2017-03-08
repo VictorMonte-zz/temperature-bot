@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Easynvest.Temperature.ConsoleApp.Arduino
 {
-    public class SerialPortHelper
+    public class SerialPortManager
     {
         private string PortName;
         private SerialPort Port;
-        public SerialPortHelper(string port)
+        public SerialPortManager(string port)
         {
             //A porta pode mudar conforme alocação do S.O
             PortName = port;

@@ -15,9 +15,9 @@ namespace Easynvest.Temperature.ConsoleApp
         static void Main(string[] args)
         {
             HostFactory.Run(x => {
-                x.Service<SerialPortHelper>(s =>
+                x.Service<SerialPortManager>(s =>
                 {
-                    s.ConstructUsing(name => new SerialPortHelper("COM6"));
+                    s.ConstructUsing(name => new SerialPortManager("COM6"));
                     s.WhenStarted(tc => {
                         tc.AddDataReceivedHandler(new SerialDataReceivedEventHandler((object sender, SerialDataReceivedEventArgs e) => 
                         {
