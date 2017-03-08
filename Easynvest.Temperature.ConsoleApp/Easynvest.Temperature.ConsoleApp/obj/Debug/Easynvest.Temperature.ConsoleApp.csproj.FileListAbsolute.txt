@@ -1,0 +1,2 @@
+c:\users\victor.monte\documents\visual studio 2015\Projects\Easynvest.Temperature.ConsoleApp\Easynvest.Temperature.ConsoleApp\bin\Debug\Easynvest.Temperature.ConsoleApp.exe.config
+C:\Users\victor.monte\Desktop\Victor GIT\Easynvest.Temperature\Easynvest.Temperature.ConsoleApp\Easynvest.Temperature.ConsoleApp\bin\Debug\Easynvest.Temperature.ConsoleApp.exe.config
