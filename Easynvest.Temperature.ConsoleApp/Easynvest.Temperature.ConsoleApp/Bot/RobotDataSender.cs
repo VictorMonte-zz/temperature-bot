@@ -11,7 +11,7 @@ namespace Easynvest.Temperature.ConsoleApp.Bot
     public static class RobotDataSender
     {
         private static Uri Endpoint { get { return new Uri(ConfigurationManager.AppSettings["endpoint"]); }}
-        private static string RequestURI { get; set; }
+        private static string RequestURI { get { return ConfigurationManager.AppSettings["requestURI"]; } }
 
         public static async void Send(string temperature = null)
         {
